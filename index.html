@@ -12,6 +12,7 @@
         <h1>My Portfolio</h1>
         <nav>
             <ul>
+                <li><a href="#hero">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -21,33 +22,38 @@
 
     <section id="hero">
         <h2>Welcome to My Portfolio</h2>
-        <p>Check out my projects and skills.</p>
+        <p>Explore my projects and learn more about me.</p>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
         <div class="project">
             <h3>Project 1</h3>
-            <p>Description of the project...</p>
+            <p>This is a description of Project 1. It's a great example of my skills.</p>
         </div>
         <div class="project">
             <h3>Project 2</h3>
-            <p>Description of the project...</p>
+            <p>This is a description of Project 2. It's another great example of my skills.</p>
         </div>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I'm a game designer and developer, passionate about creating immersive experiences.</p>
+        <p>I'm a passionate web developer with a focus on creating beautiful and functional websites.</p>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email me at <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/maykdgbo" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
     <footer>
-        <p>© 2025 My Portfolio</p>
+        <p>Â© 2025 My Portfolio | <a href="https://www.linkedin.com/in/yourname" target="_blank">LinkedIn</a></p>
     </footer>
 
     <script src="script.js"></script>
